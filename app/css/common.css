@@ -110,42 +110,6 @@ section.offers h2 {
   border: 2px solid #d96683;
   border-radius: 50%;
 }
-.or-a1 .line:after {
-  top: 17px;
-  left: -96px;
-  transform: rotate(-20deg);
-}
-.or-a1 .circle {
-  left: -100px;
-  top: 31px;
-}
-.ol-a1 .line:after {
-  top: 17px;
-  right: -96px;
-  transform: rotate(20deg);
-}
-.ol-a1 .circle {
-  top: 31px;
-  right: -100px !important;
-}
-.or-a4 .line:after {
-  top: -17px;
-  left: -96px;
-  transform: rotate(20deg);
-}
-.or-a4 .circle {
-  top: -40px;
-  left: -100px;
-}
-.ol-a4 .line:after {
-  top: -17px;
-  right: -96px;
-  transform: rotate(-20deg);
-}
-.ol-a4 .circle {
-  top: -40px;
-  right: -100px !important;
-}
 .o-left .curve .circle {
   right: -6px;
   left: auto;
@@ -165,16 +129,70 @@ section.offers h2 {
   text-transform: uppercase;
   color: #2fa781;
 }
+.or-item h3 {
+  padding: 0 82px 0 0;
+  background-position: 104% 0;
+}
 .ol-item h3 {
   padding: 0 0 0 82px;
   background-position: -7px 0;
 }
+.or-a1 .line:after {
+  top: 17px;
+  left: -96px;
+  transform: rotate(-20deg);
+}
+.or-a1 .circle {
+  left: -100px;
+  top: 31px;
+}
+.or-a1 h3 {
+  background-position: 106% -63px;
+}
+.or-a2 h3 {
+  background-position: 104% -203px;
+}
+.or-a3 h3 {
+  background-position: 102% -327px;
+}
+.or-a4 h3 {
+  background-position: 108% -474px;
+}
+.or-a4 .line:after {
+  top: -17px;
+  left: -96px;
+  transform: rotate(20deg);
+}
+.or-a4 .circle {
+  top: -40px;
+  left: -100px;
+}
+.ol-a1 .line:after {
+  top: 17px;
+  right: -96px;
+  transform: rotate(20deg);
+}
+.ol-a1 .circle {
+  top: 31px;
+  right: -100px !important;
+}
 .ol-a2 h3 {
   background-position: -7px -132px;
 }
-.or-item h3 {
-  padding: 0 82px 0 0;
-  background-position: 104% 0;
+.ol-a3 h3 {
+  background-position: -7px -267px;
+}
+.ol-a4 .line:after {
+  top: -17px;
+  right: -96px;
+  transform: rotate(-20deg);
+}
+.ol-a4 .circle {
+  top: -40px;
+  right: -100px !important;
+}
+.ol-a4 h3 {
+  background-position: -7px -407px;
 }
 /*.polygon*/
 .polygon {
