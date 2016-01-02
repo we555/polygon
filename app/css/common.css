@@ -1,0 +1,189 @@
+p,
+h3 {
+  margin: 0;
+}
+/* section.offers */
+/*******************************************************************/
+section.offers {
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 0;
+  background: #ccc url(../img/polygon_bg.jpg);
+  margin-bottom: 200px;
+}
+section.offers h2 {
+  display: inline-block;
+  color: #56c3a2;
+  font: 34px Georgia, sans-serif;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #78c09c;
+}
+.o-items {
+  overflow: hidden;
+}
+.o-items article {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.o-items article p {
+  font: 15px Georgia, sans-serif;
+  height: 3.5em;
+  padding-top: 12px;
+  overflow: hidden;
+}
+.o-items article:hover h3 {
+  color: #d96683;
+}
+.o-items article:hover .line {
+  background-color: #d96683;
+}
+.o-items article:hover .line:after {
+  background-color: #d96683;
+}
+.o-items article:hover .circle {
+  z-index: 1;
+  background-color: #d96683;
+}
+.o-items article:hover .circle:after {
+  border-color: #78c09c;
+}
+.o-items .o-left {
+  float: left;
+  width: 50%;
+}
+.o-items .o-right {
+  float: right;
+  width: 50%;
+}
+/*.ol-item*/
+.ol-item {
+  text-align: left;
+  float: left;
+}
+/*.or-item*/
+.or-item {
+  text-align: right;
+  float: right;
+}
+.or-item p {
+  text-align: left;
+}
+.curve {
+  position: relative;
+  width: 100%;
+}
+.curve .line {
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #78c09c;
+}
+.curve .line:after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  background-color: #78c09c;
+}
+.curve .circle {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  left: -6px;
+  top: -5px;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: #78c09c;
+}
+.curve .circle:after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  z-index: 1;
+  border: 2px solid #d96683;
+  border-radius: 50%;
+}
+.or-a1 .line:after {
+  top: 17px;
+  left: -96px;
+  transform: rotate(-20deg);
+}
+.or-a1 .circle {
+  left: -100px;
+  top: 31px;
+}
+.ol-a1 .line:after {
+  top: 17px;
+  right: -96px;
+  transform: rotate(20deg);
+}
+.ol-a1 .circle {
+  top: 31px;
+  right: -100px !important;
+}
+.or-a4 .line:after {
+  top: -17px;
+  left: -96px;
+  transform: rotate(20deg);
+}
+.or-a4 .circle {
+  top: -40px;
+  left: -100px;
+}
+.ol-a4 .line:after {
+  top: -17px;
+  right: -96px;
+  transform: rotate(-20deg);
+}
+.ol-a4 .circle {
+  top: -40px;
+  right: -100px !important;
+}
+.o-left .curve .circle {
+  right: -6px;
+  left: auto;
+}
+.ol-item,
+.or-item {
+  width: 70%;
+}
+.ol-item h3,
+.or-item h3 {
+  min-height: 55px;
+  margin-bottom: 5px;
+  padding: 0;
+  white-space: nowrap;
+  font: 17px/55px Georgia, sans-serif;
+  background: url(../img/icons-sprite.png) no-repeat;
+  text-transform: uppercase;
+  color: #2fa781;
+}
+.ol-item h3 {
+  padding: 0 0 0 82px;
+  background-position: -7px 0;
+}
+.ol-a2 h3 {
+  background-position: -7px -132px;
+}
+.or-item h3 {
+  padding: 0 82px 0 0;
+  background-position: 104% 0;
+}
+/*.polygon*/
+.polygon {
+  margin: 100px -167px 0 -166px;
+  display: inline-block;
+}
+/* classes */
+/*******************************************************************/
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
