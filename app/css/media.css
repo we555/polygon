@@ -1,0 +1,198 @@
+/*  Desktop First Method */
+/*******************************************************************/
+/*  1160px */
+/*******************************************************************/
+@media only screen and (max-width: 1160px) {
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+/*  1060px */
+/*******************************************************************/
+@media only screen and (max-width: 1060px) {
+  .polygon img {
+    width: 283px;
+    height: auto;
+  }
+  .ol-item h3,
+  .or-item h3 {
+    font-size: 16px;
+  }
+  .ol-a1 .line:after {
+    top: 42px;
+    right: -102px;
+    transform: rotate(45deg);
+    width: 120px;
+  }
+  .ol-a1 .circle {
+    top: 80px;
+    right: -91px !important;
+  }
+  .or-a1 .line:after {
+    top: 42px;
+    left: -102px;
+    transform: rotate(-45deg);
+    width: 120px;
+  }
+  .or-a1 .circle {
+    top: 80px;
+    left: -91px;
+  }
+  .ol-a4 .line:after {
+    top: -35px;
+    right: -106px;
+    transform: rotate(-36deg);
+    width: 118px;
+  }
+  .ol-a4 .circle {
+    top: -74px;
+    right: -100px !important;
+  }
+  .or-a4 .line:after {
+    top: -34px;
+    left: -105px;
+    transform: rotate(36deg);
+    width: 118px;
+  }
+  .or-a4 .circle {
+    top: -74px;
+    left: -100px;
+  }
+}
+/*  1000px */
+/*******************************************************************/
+@media only screen and (max-width: 1000px) {
+  .ol-item h3,
+  .or-item h3 {
+    font-size: 15px;
+  }
+}
+/*  960px */
+/*******************************************************************/
+@media only screen and (max-width: 960px) {
+  .ol-item h3,
+  .or-item h3 {
+    font-size: 14px;
+  }
+}
+/*  900px */
+/*******************************************************************/
+@media only screen and (max-width: 900px) {
+  .ol-item h3,
+  .or-item h3 {
+    font-size: 16px;
+  }
+  .polygon {
+    display: none;
+  }
+  .o-item {
+    width: 95%;
+  }
+  .o-item .line:after {
+    display: none;
+  }
+  .o-item .circle {
+    display: none;
+  }
+}
+/*  768px */
+/*******************************************************************/
+@media only screen and (max-width: 768px) {
+  .o-items {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .o-item {
+    margin-bottom: 30px;
+  }
+  .o-item p {
+    height: auto;
+  }
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  section.offers h2 {
+    border-bottom: none;
+    font-size: 28px;
+  }
+  .ol-item h3,
+  .or-item h3 {
+    font-size: 15px;
+    white-space: normal;
+  }
+  .o-right,
+  .o-left {
+    width: auto;
+    float: none;
+  }
+  .o-item {
+    width: auto;
+  }
+  .ol-item {
+    float: none;
+  }
+  .or-item {
+    float: none;
+  }
+  .or-item h3 {
+    text-align: left;
+    padding: 0 0 0 82px;
+  }
+  .or-a1 h3 {
+    background-position: -7px -63px;
+    padding-left: 51px;
+  }
+  .or-a2 h3 {
+    background-position: -7px -203px;
+    padding-left: 60px;
+  }
+  .or-a3 h3 {
+    background-position: -7px -327px;
+  }
+  .or-a4 h3 {
+    background-position: -7px -474px;
+    padding-left: 60px;
+  }
+}
+/*  480px */
+/*******************************************************************/
+@media only screen and (max-width: 480px) {
+  .o-item h3 {
+    padding: 0;
+    background-image: none;
+  }
+  section.offers h2 {
+    font-size: 24px;
+  }
+}
+/*  350px */
+/*******************************************************************/
+@media only screen and (max-width: 350px) {
+  .ol-item h3,
+  .or-item h3,
+  .ol-item p,
+  .or-item p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .o-items {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+/*  320px */
+/*******************************************************************/
+/*  Mobile First Method */
+/*******************************************************************/
+/*  320px */
+/*******************************************************************/
+/*  480px */
+/*******************************************************************/
+/*  768px */
+/*******************************************************************/
+/*  992px */
+/*******************************************************************/
+/*  1200px */
+/*******************************************************************/
