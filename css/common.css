@@ -40,6 +40,8 @@ section.offers h2 {
 }
 /* .o-item */
 .o-item {
+  position: relative;
+  z-index: 2;
   cursor: pointer;
   margin-bottom: 15px;
 }
@@ -107,12 +109,10 @@ section.offers h2 {
   border: 2px solid #d96683;
   border-radius: 50%;
 }
-.ol-item,
-.or-item {
+.o-item {
   width: 70%;
 }
-.ol-item h3,
-.or-item h3 {
+.o-item h3 {
   min-height: 55px;
   margin-bottom: 5px;
   padding: 0;
@@ -154,10 +154,12 @@ section.offers h2 {
   top: 31px;
 }
 .or-a1 h3 {
+  padding-right: 72px;
   background-position: 106% -63px;
 }
 /* .or-a2 */
 .or-a2 h3 {
+  padding-right: 75px;
   background-position: 104% -203px;
 }
 /* .or-a3 */
@@ -212,8 +214,10 @@ section.offers h2 {
 }
 /*.polygon*/
 .polygon,
-.polygon img {
+.polygon img,
+.polygon svg {
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   bottom: 0;

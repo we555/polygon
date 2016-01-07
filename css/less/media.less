@@ -8,22 +8,27 @@
 		margin-left: 2%;
 		margin-right: 2%;
 	}
+
+	.o-item {
+		h3 {
+			font-size: 16px;
+		}
+	}
 }
 
 /*  1060px */
 /*******************************************************************/
 @media only screen and (max-width : 1060px) {
+	.o-item {
+		h3 {
+			font-size: 14px;
+		}
+	}
+
 	.polygon {
 		img {	
 			width: 283px;
 			height: auto;
-		}
-	}
-
-	.ol-item, 
-	.or-item {
-		h3 {
-			font-size: 16px;
 		}
 	}
 
@@ -88,38 +93,32 @@
 	}
 }
 
-/*  1000px */
-/*******************************************************************/
-@media only screen and (max-width : 1000px) {
-	.ol-item, 
-	.or-item {
-		h3 {
-			font-size: 15px;
-		}
-	}
-}
-
 /*  960px */
 /*******************************************************************/
 @media only screen and (max-width : 960px) {
-	.ol-item, 
-	.or-item {
+	section.offers h2 {
+		border-bottom: none;
+		font-size: 28px;
+	}
+
+	.o-item {
 		h3 {
+			font-size: 13px;
+		}
+		p {
 			font-size: 14px;
+			line-height: normal;
 		}
 	}
 }
 
-/*  900px */
+/*  920px */
 /*******************************************************************/
-@media only screen and (max-width : 900px) {
-	.ol-item, 
-	.or-item {
-		h3 {
-			font-size: 16px;
-		}
-	}
+@media only screen and (max-width : 920px) {
 
+	section.offers h2 {
+		font-size: 26px;
+	}
 	.polygon {
 		display: none;
 	}
@@ -132,6 +131,13 @@
 		}
 		.circle {
 			display: none;
+		}
+		h3 {
+			font-size: 15px;
+		}
+		p {
+			font-size: 15px;
+			line-height: normal;
 		}
 	}
 }
@@ -155,19 +161,6 @@
 	.container {
 		margin-left: 5%;
 		margin-right: 5%;
-	}
-
-	section.offers h2 {
-		border-bottom: none;
-		font-size: 28px;
-	}
-
-	.ol-item, 
-	.or-item {
-		h3 {
-			font-size: 15px;
-			white-space: normal;
-		}
 	}
 
 	.o-right,
@@ -224,28 +217,30 @@
 /*  480px */
 /*******************************************************************/
 @media only screen and (max-width : 480px) {
-	.o-item {
-    h3 {
-			padding: 0;
-			background-image: none;
-    }
-	}
-
 	section.offers h2 {
 		font-size: 24px;
+	}
+	
+	.o-item {
+    h3 {
+	    min-height: 35px;
+	    line-height: 35px;
+			padding: 0;
+			background-image: none;
+
+
+			font-size: 14px;
+    }
+		p {
+			font-size: 14px;
+			line-height: normal;
+		}
 	}
 }
 
 /*  350px */
 /*******************************************************************/
 @media only screen and (max-width : 350px) {
-	.ol-item, 
-	.or-item {
-		h3, p {
-			font-size: 14px;
-			line-height: normal;
-		}
-	}
 	.o-items {
 		margin-left: 2%;
     margin-right: 2%;

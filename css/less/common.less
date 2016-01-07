@@ -59,6 +59,8 @@ section {
 /* .o-item */
 
 .o-item {
+  position: relative;
+  z-index: 2;
   cursor: pointer;
   margin-bottom: 15px;
 
@@ -141,8 +143,7 @@ section {
   }
 }
 
-.ol-item,
-.or-item {
+.o-item {
   width: 70%;
 
   h3 {
@@ -205,6 +206,7 @@ section {
     top: 31px;
   }
   h3 {
+    padding-right: 72px;
     background-position: 106% -63px;
   }
 }
@@ -213,6 +215,7 @@ section {
 
 .or-a2 {
   h3 {
+    padding-right: 75px;
     background-position: 104% -203px;
   }
 }
@@ -308,8 +311,9 @@ section {
 /*.polygon*/
 
 .polygon {
-  &, img {
+  &, img, svg {
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -321,6 +325,10 @@ section {
     display: block;
     width: 333px;
     height: auto;  
+  }
+
+  svg {
+
   }
 }
 
