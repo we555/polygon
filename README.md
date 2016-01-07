@@ -2,7 +2,7 @@
 
 Adaptive section
 
-[View the site](http://tarthur.github.io/polygon)
+[View the section](http://tarthur.github.io/polygon)
 
 ## Browser support
 
