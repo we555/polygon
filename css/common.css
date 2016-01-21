@@ -215,23 +215,33 @@ section.offers h2 {
 /*.polygon*/
 .polygon,
 .polygon img,
-.polygon svg {
+.polygon .poly-svg {
   position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  margin: auto;
 }
 .polygon img {
-  margin: auto;
   display: block;
   width: 333px;
   height: auto;
+}
+.poly-svg .p {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 /* classes */
 /*******************************************************************/
 .container {
   max-width: 1100px;
   margin: auto;
+}
+.poly-svg .op {
+  opacity: 1;
 }

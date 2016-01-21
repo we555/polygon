@@ -21,6 +21,9 @@
     width: 283px;
     height: auto;
   }
+  .poly-svg {
+    width: 283px;
+  }
   .ol-a1 .line:after {
     top: 42px;
     right: -102px;
