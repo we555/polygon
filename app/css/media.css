@@ -21,6 +21,9 @@
     width: 283px;
     height: auto;
   }
+  .poly-svg {
+    width: 283px;
+  }
   .ol-a1 .line:after {
     top: 42px;
     right: -102px;
@@ -60,9 +63,6 @@
   .or-a4 .circle {
     top: -74px;
     left: -100px;
-  }
-  .poly-svg {
-    width: 283px;
   }
 }
 /*  960px */

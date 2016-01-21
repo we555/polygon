@@ -311,24 +311,32 @@ section {
 /*.polygon*/
 
 .polygon {
-  &, img, svg {
+  &, img, .poly-svg {
     position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    margin: auto;
   }
 
   img {
-    margin: auto;
     display: block;
     width: 333px;
     height: auto;  
   }
 
-  svg {
+}
 
+
+.poly-svg {
+  .p {
+    opacity: 0;
+    -webkit-transition: opacity .2s ease-out;
+       -moz-transition: opacity .2s ease-out;
+         -o-transition: opacity .2s ease-out;
+            transition: opacity .2s ease-out;
   }
 }
 
@@ -337,4 +345,8 @@ section {
 .container {
   max-width: 1100px;
   margin: auto;
+}
+
+.poly-svg .op {
+  opacity: 1;
 }

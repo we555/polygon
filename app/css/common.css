@@ -224,28 +224,24 @@ section.offers h2 {
   right: 0;
   margin: auto;
 }
-
 .polygon img {
   display: block;
   width: 333px;
   height: auto;
 }
-
 .poly-svg .p {
   opacity: 0;
-  -webkit-transition: opacity .2s ease-out;
-     -moz-transition: opacity .2s ease-out;
-       -o-transition: opacity .2s ease-out;
-          transition: opacity .2s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
-
 /* classes */
 /*******************************************************************/
 .container {
   max-width: 1100px;
   margin: auto;
 }
-
 .poly-svg .op {
   opacity: 1;
 }
